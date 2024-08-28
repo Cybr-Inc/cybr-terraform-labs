@@ -9,9 +9,9 @@ terraform {
 
 terraform {
   backend "s3" {
-    bucket = "cybr-terraform-state-bucket"
+    bucket = var.aws_s3_bucket_name
     key    = "terraform.tfstate"
-    region = "us-east-1"
+    region = var.aws_region
   }
 }
 
