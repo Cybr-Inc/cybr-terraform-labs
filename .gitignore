@@ -41,3 +41,4 @@ terraform.rc
 # Ignore other stuff
 .DS_Store
 *.vscode/*
+.vscode/
