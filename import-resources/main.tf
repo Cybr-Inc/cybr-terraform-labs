@@ -1,0 +1,1 @@
+resource "aws_iam_user" "user_to_import" {}
